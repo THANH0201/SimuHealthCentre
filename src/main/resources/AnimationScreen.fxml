@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="floor-bg">
+               <children>
+                  <StackPane layoutX="121.0" layoutY="253.0" prefHeight="61.0" prefWidth="91.0">
+                     <styleClass>
+                        <String fx:value="room-lab" />
+                        <String fx:value="room" />
+                     </styleClass>
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="47.0" prefWidth="63.0" styleClass="room-title">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LAB" />
+                           </children>
+                        </VBox>
+                        <Circle id="portLab" fill="DODGERBLUE" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="273.0" layoutY="14.0" prefHeight="35.0" prefWidth="71.0">
+                     <styleClass>
+                        <String fx:value="room-nurse" />
+                        <String fx:value="room" />
+                     </styleClass>
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="52.0" prefWidth="75.0" styleClass="room-title">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nurse" />
+                           </children>
+                        </VBox>
+                        <Circle id="portNurse1" fill="DODGERBLUE" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="475.0" layoutY="98.0" prefHeight="48.0" prefWidth="101.0">
+                     <styleClass>
+                        <String fx:value="room-docA" />
+                        <String fx:value="room" />
+                     </styleClass>
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="52.0" prefWidth="75.0" styleClass="room-title">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="General" wrappingWidth="58.890625" />
+                           </children>
+                        </VBox>
+                        <Circle id="portGeneral1" fill="DODGERBLUE" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="475.0" layoutY="225.0" prefHeight="27.0" prefWidth="101.0">
+                     <styleClass>
+                        <String fx:value="room-docB" />
+                        <String fx:value="room" />
+                     </styleClass>
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="52.0" prefWidth="75.0" styleClass="room-title">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Specialist" />
+                           </children>
+                        </VBox>
+                        <Circle id="portSpecialist1" fill="DODGERBLUE" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="121.0" layoutY="93.0" prefHeight="63.0" prefWidth="93.0">
+                     <styleClass>
+                        <String fx:value="room-register" />
+                        <String fx:value="room" />
+                     </styleClass>
+                     <children>
+                        <Circle id="portRegister" fill="DODGERBLUE" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                        <VBox alignment="CENTER" prefHeight="52.0" prefWidth="75.0" styleClass="room-title">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Register" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="475.0" layoutY="146.0" prefHeight="48.0" prefWidth="101.0">
+                     <styleClass>
+                        <String fx:value="room-docA" />
+                        <String fx:value="room" />
+                     </styleClass>
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="52.0" prefWidth="75.0" styleClass="room-title">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="General" wrappingWidth="58.890625" />
+                           </children>
+                        </VBox>
+                        <Circle id="portGeneral2" fill="DODGERBLUE" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="475.0" layoutY="274.0" prefHeight="27.0" prefWidth="101.0">
+                     <styleClass>
+                        <String fx:value="room-docB" />
+                        <String fx:value="room" />
+                     </styleClass>
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="52.0" prefWidth="75.0" styleClass="room-title">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Specialist" />
+                           </children>
+                        </VBox>
+                        <Circle id="portSpecialist2" fill="DODGERBLUE" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="344.0" layoutY="14.0" prefHeight="35.0" prefWidth="71.0">
+                     <styleClass>
+                        <String fx:value="room-nurse" />
+                        <String fx:value="room" />
+                     </styleClass>
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="52.0" prefWidth="75.0" styleClass="room-title">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nurse" />
+                           </children>
+                        </VBox>
+                        <Circle id="portNurse2" fill="DODGERBLUE" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="79.0" layoutY="107.0" minHeight="34.0" minWidth="34.0" prefHeight="34.0" prefWidth="34.0" styleClass="queue-badge">
+                     <children>
+                        <Circle id="portQueueRegister" fill="DODGERBLUE" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="327.0" layoutY="73.0" minHeight="34.0" minWidth="34.0" prefHeight="34.0" prefWidth="34.0" styleClass="queue-badge">
+                     <children>
+                        <Circle id="portQueueNurse" fill="DODGERBLUE" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="426.0" layoutY="129.0" minHeight="34.0" minWidth="34.0" prefHeight="34.0" prefWidth="34.0" styleClass="queue-badge">
+                     <children>
+                        <Circle id="portQueueGeneral" fill="DODGERBLUE" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="426.0" layoutY="256.0" minHeight="34.0" minWidth="34.0" prefHeight="34.0" prefWidth="34.0" styleClass="queue-badge">
+                     <children>
+                        <Circle id="portQueueSpecialist" fill="DODGERBLUE" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="230.0" layoutY="267.0" minHeight="34.0" minWidth="34.0" prefHeight="34.0" prefWidth="34.0" styleClass="queue-badge">
+                     <children>
+                        <Circle id="portQueueLab" fill="DODGERBLUE" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="-1.0" layoutY="64.0" prefHeight="131.0" prefWidth="37.0" styleClass="entry-sign">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label text="A" />
+                              <Label text="R" />
+                              <Label text="R" />
+                              <Label text="I" />
+                              <Label text="V" />
+                              <Label text="A" />
+                              <Label text="L" />
+                           </children>
+                        </VBox>
+                        <Circle id="portArrival" fill="DODGERBLUE" layoutX="29.0" layoutY="76.0" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="-1.0" layoutY="243.0" prefHeight="81.0" prefWidth="35.0" styleClass="exit-sign">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="69.0" prefWidth="4.0">
+                           <children>
+                              <Label text="E" />
+                              <Label text="I" />
+                              <Label text="T" />
+                              <Label text="X" />
+                           </children>
+                        </VBox>
+                        <Circle id="portExit" fill="DODGERBLUE" mouseTransparent="true" opacity="0.01" radius="4.0" stroke="BLACK" strokeType="INSIDE" styleClass="port" />
+                     </children>
+                  </StackPane>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#efe9df" height="25.0" layoutX="473.0" layoutY="110.0" stroke="#efe9df" strokeType="INSIDE" width="5.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#efe9df" height="25.0" layoutX="473.0" layoutY="158.0" stroke="#efe9df" strokeType="INSIDE" width="5.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#efe9df" height="25.0" layoutX="473.0" layoutY="237.0" stroke="#efe9df" strokeType="INSIDE" width="5.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#efe9df" height="25.0" layoutX="473.0" layoutY="286.0" stroke="#efe9df" strokeType="INSIDE" width="5.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#efe9df" height="25.0" layoutX="119.0" layoutY="110.0" stroke="#efe9df" strokeType="INSIDE" width="5.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#efe9df" height="25.0" layoutX="116.0" layoutY="271.0" stroke="#efe9df" strokeType="INSIDE" width="8.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#efe9df" height="25.0" layoutX="209.0" layoutY="112.0" stroke="#efe9df" strokeType="INSIDE" width="6.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#efe9df" height="25.0" layoutX="207.0" layoutY="271.0" stroke="#efe9df" strokeType="INSIDE" width="5.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#efe9df" height="25.0" layoutX="303.0" layoutY="52.0" rotate="90.0" stroke="#efe9df" strokeType="INSIDE" width="11.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#efe9df" height="25.0" layoutX="374.0" layoutY="52.0" rotate="90.0" stroke="#efe9df" strokeType="INSIDE" width="11.0" />
+               </children></AnchorPane>
+         </children>
+      </StackPane>
+   </center>
+   <top>
+      <HBox alignment="TOP_CENTER" prefHeight="40.0" prefWidth="600.0" styleClass="topbar" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="203.0" styleClass="chip">
+               <children>
+                  <Label alignment="CENTER" styleClass="topbar-label" text="SPEED" />
+                  <Slider id="speedsSider" prefHeight="14.0" prefWidth="100.0" showTickLabels="true" snapToTicks="true" styleClass="speed-slider" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="45.0" prefWidth="168.0" styleClass="chip">
+               <children>
+                  <Label styleClass="topbar-label" text="TIME" />
+                  <Label id="SimuTime" alignment="CENTER" prefHeight="17.0" prefWidth="94.0" styleClass="time-badge" text="00:00:00" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button id="backButton" mnemonicParsing="false" styleClass="btn-primary" text="BACK" />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

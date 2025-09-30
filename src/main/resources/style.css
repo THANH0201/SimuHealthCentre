@@ -1,0 +1,180 @@
+/* welcome screen */
+.welcome-screen {
+    -fx-background-image: url("welcomeBackground.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.title-label {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #004D40;
+}
+
+.start-button {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #00695C;
+    -fx-background-radius: 15;
+    -fx-padding: 12 36 12 36;
+    -fx-border-color: transparent;
+}
+
+.start-button:hover {
+    -fx-background-color: #004D40;
+    -fx-border-color: #D4AF37;
+    -fx-border-width: 2;
+}
+
+.start-button:pressed {
+    -fx-background-color: #00332E;
+}
+/*simuconfig*/
+
+.heading-label {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #004D40;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 18, 0, 0, 4);
+    -fx-padding: 10 0 20 0;
+    -fx-alignment: center;
+}
+.heading2-label {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #004D40;
+}
+.form-label {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #204a48;
+}
+.simulate-button {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #204a48;
+    -fx-background-radius: 13;
+    -fx-padding: 12 16 12 16;
+    -fx-border-color: transparent;
+}
+/* Animation */
+.floor-bg {
+    -fx-background-color: linear-gradient(#f6f3ee, #efe9df);
+    -fx-background-image: url("grid-16-dark.png");
+    -fx-background-repeat: repeat;
+    -fx-background-position: 0 0;
+}
+/* ==== Top bar ==== */
+.topbar {
+    -fx-background-color: #00695C;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 16, 0, 0, 2);
+}
+
+.speed-slider .axis {
+  -fx-tick-label-fill: #ffffff;
+}
+.speed-slider .axis .tick-mark {
+  -fx-stroke: rgba(255,255,255,0.85);
+}
+
+
+.chip {
+    -fx-background-color: #00695C;          /* capsule */
+    -fx-background-radius: 10;
+    -fx-padding: 6 10;
+    -fx-spacing: 8;
+}
+
+.topbar-label {
+    -fx-text-fill: #cfd8e3;
+    -fx-font-weight: 700;
+}
+
+.time-badge {
+    -fx-background-color: #2b3540;
+    -fx-text-fill: #e8eef2;
+    -fx-background-radius: 10;
+    -fx-padding: 6 12;
+    -fx-font-weight: 700;
+}
+.time-badge {
+    -fx-background-color: #2b3540;
+    -fx-text-fill: #e8eef2;
+    -fx-background-radius: 10;
+    -fx-padding: 6 12;
+    -fx-font-weight: 700;
+    -fx-font-family: "Consolas", "JetBrains Mono", "Monospaced";
+}
+
+.btn-primary {
+    -fx-background-color: linear-gradient(#2bb197, #0b6d66);
+    -fx-text-fill: white;
+    -fx-background-radius: 12;
+    -fx-padding: 6 16;
+    -fx-font-weight: 700;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 10, 0, 0, 1);
+}
+.btn-primary:hover  { -fx-background-color: linear-gradient(#32c7aa, #0d7e75); }
+.btn-primary:pressed{ -fx-background-color: #055e57; }
+
+/* outline room */
+.room{
+  -fx-background-color:#f0e8dc;
+  -fx-background-radius:6;
+  -fx-border-color:#3b4147;
+  -fx-border-width:3;
+  -fx-border-radius:6;
+  -fx-padding:10;
+  -fx-effect:dropshadow(gaussian, rgba(0,0,0,0.15),12,0,0,2);
+}
+.room-title{
+  -fx-text-fill:#2a2f36;
+  -fx-font-size:16px;
+  -fx-font-weight:700;
+}
+/* room */
+.room-register{ -fx-border-color:#7e57c2; }
+.room-nurse   { -fx-border-color:#26a69a; }
+.room-docA    { -fx-border-color:#64b5f6; }
+.room-docB    { -fx-border-color:#fc6b03; }
+.room-lab     { -fx-border-color:#ffb74d; }
+
+.shelf{
+  -fx-fill: rgba(0,0,0,0.25);
+  -fx-arc-width: 6; -fx-arc-height: 6;
+  -fx-height: 6;
+}
+
+.queue-badge {
+
+  -fx-background-color: #203a56;
+  -fx-background-radius: 999;       
+  -fx-border-color: rgba(255,255,255,.25);
+  -fx-border-width: 2;
+  -fx-border-radius: 999;
+  -fx-alignment: center;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 10, 0, 0, 1);
+}
+.queue-badge .label {
+  -fx-text-fill: #cfe9ff;
+  -fx-font-weight: 700;
+  -fx-font-size: 12px;
+}
+.entry-sign, .exit-sign {
+  -fx-background-radius: 10; -fx-padding: 6 12; -fx-alignment: center;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 12, 0, 0, 2);
+  -fx-font-weight: 700; -fx-text-fill: white;
+}
+.entry-sign { -fx-background-color: #2bb197; }
+.exit-sign  { -fx-background-color: #e53935; }
+
+/* port */
+.port { -fx-fill: #00bcd4; -fx-opacity: .01; }   /* mặc định vô hình */
+.show-ports .port { -fx-opacity: .9; }           /* bật nhìn rõ khi cần */

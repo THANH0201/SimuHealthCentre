@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- log out to console -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Hibernate: INFO -->
+    <logger name="org.hibernate" level="DEBUG" />
+
+    <!-- log for all -->
+    <root level="DEBUG">
+        <!--<appender-ref ref="STDOUT" /> -->
+        <appender-ref ref="FILE" />
+    </root>
+
+</configuration>
